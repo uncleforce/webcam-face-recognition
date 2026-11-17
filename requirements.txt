@@ -1,0 +1,8 @@
+opencv-python
+numpy
+face_recognition
+
+# face_recognition_models (installed by face_recognition) imports pkg_resources,
+# which was removed from newer setuptools releases. Keep this pin or imports fail
+# with: "Please install `face_recognition_models`...".
+setuptools<81

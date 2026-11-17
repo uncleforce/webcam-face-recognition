@@ -1,0 +1,5 @@
+# Optional: render Arabic names on the video window.
+# Install with: pip install -r requirements-arabic.txt
+pillow
+arabic-reshaper
+python-bidi
